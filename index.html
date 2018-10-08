@@ -2,24 +2,24 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Aloha</title>
     <link rel="stylesheet" href="fonts2/stylesheet.css">
     <link rel="stylesheet" href="reset.css" media="screen">
     <link rel="stylesheet" href="style.css" media="screen">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <div class="container">
     <header>
-        <img src="images/aloha-logo.svg" alt="aloha logo" id="logo">
-        <img src="images/cart-icon.svg" alt="cart icon" id="cart">
-        <nav id="menu">
+        <nav id="logo-bar">
+            <img src="images/aloha-logo.svg" alt="aloha logo" id="logo">
+            <img src="images/cart-icon.svg" alt="cart icon" id="cart">
             <ul>
-                <li>About</li>
-                <li>Shop</li>
-                <li>Features</li>
-                <li>Updates</li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Updates</a></li>
             </ul>
         </nav>
     </header>
@@ -30,54 +30,66 @@
         </div>
     </section>
     <section class="content" id="styles">
-        <h2>Hand-Crafted</h2><h2>Styles</h2>
+        <h2>Hand-Crafted</h2> <h2>Styles</h2>
         <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing.
-            Browse our<br> current selection of products or sign-up for udpates below.</p>
+            Browse our current selection of products or sign-up for udpates below.</p>
+    </section>
+    <section>
         <nav class="category">
             <ul>
-                <li class="large"><p id="mens">MEN'S</p></li>
-                <li><p id="trends">TRENDS</p></li>
-                <li><p id="glasses">GLASSES</p></li>
-                <li><p id="sale">SALE</p></li>
-                <li><p id="bags">BAGS</p></li>
-                <li class="large"><p id="womens">WOMEN'S</p></li>
+                <li class="large" id="mens"><a href="#">MEN'S</a></li>
+                <li id="trends"><a href="#">TRENDS</a></li>
+                <li id="glasses"><a href="#">GLASSES</a></li>
+                <li id="sale"><a href="#">SALE</a></li>
+                <li id="bags"><a href="#">BAGS</a></li>
+                <li class="large" id="womens"><a href="#">WOMEN'S</a></li>
             </ul>
         </nav>
     </section>
     <section class="content" id="products">
-        <h2>Most-Loved</h2><h2>Products</h2>
-        <div>
-            <div>
+        <h2>Most-Loved</h2> <h2>Products</h2>
+    </section>
+
+    <div class="carousel">
+        <div class="carousel-wrapper">
+            <div class="carousel-item">
                 <img src="images/checked-stretch-dress.jpg">
                 <p class="product_type">DRESSES</p>
                 <h3>Checked Stretch Dress</h3>
                 <p>$129.00</p>
             </div>
-            <div>
+        </div>
+        <div class="carousel-wrapper">
+            <div class="carousel-item">
                 <img src="images/blue-hipster-backpack.jpg">
                 <p class="product_type">BAGS</p>
                 <h3>Blue Hipster Backpack</h3>
                 <p>$69.00</p>
             </div>
-            <div><img src="images/demin-overall-shorts.jpg">
+        </div>
+        <div class="carousel-wrapper">
+            <div class="carousel-item"><img src="images/demin-overall-shorts.jpg">
                 <p class="product_type">DENIM</p>
                 <h3>Demin Overall Shorts</h3>
                 <p>$89.00</p>
             </div>
-            <div><img src="images/pink-dotted-dress.jpg">
+        </div>
+        <div class="carousel-wrapper">
+            <div class="carousel-item"><img src="images/pink-dotted-dress.jpg">
                 <p class="product_type">DRESSES</p>
                 <h3>Pink Dotted Dress</h3>
                 <p>$99.00</p>
             </div>
         </div>
-    </section>
+    </div>
+
     <section class="content" id="updates">
-        <h2>Sing-up for</h2><h2>Updates</h2>
-        <p>Stay updated on our latest product releases, be first out about<br> upcoming sales,
+        <h2>Sing-up for</h2> <h2>Updates</h2>
+        <p>Stay updated on our latest product releases, be first out about upcoming sales,
             and get free style tips from our blog. Unsubscribe at any time.</p>
         <form>
-            <input type="email" name="email">
-            <input type="submit" name="subsribe">
+            <input type="email" name="email" id="email">
+            <input type="submit" name="subsribe" id="submit-button">
         </form>
     </section>
     <footer>
@@ -93,7 +105,7 @@
             </div>
         </div>
         <div>
-            <ul>
+            <ul class="social-media">
                 <li class="facebook">Facebook</li>
                 <li class="twitter">Twitter</li>
                 <li class="instagram">Instagram</li>

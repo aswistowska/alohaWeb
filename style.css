@@ -1,34 +1,90 @@
-body {
-    display: flex;
-    justify-content: center;
+@font-face {
+    font-family: "Playfair Display";
+    src: url(fonts/PlayfairDisplay-Regular.otf);
 }
 
-.container {
-    text-align: center;
+@font-face {
+    font-family: "Playfair Display Italic";
+    src: url(fonts/PlayfairDisplay-Italic.otf);
+}
+
+@font-face {
+    font-family: "Playfair Display Bold";
+    src: url(fonts/PlayfairDisplay-Bold.otf);
+}
+
+
+@font-face {
+    font-family: Raleway;
+    src: url(fonts/Raleway-Medium.ttf)
+}
+
+@font-face {
+    font-family: "Raleway Light";
+    src: url(fonts/Raleway-Light.ttf)
+}
+
+
+body {
+    background: url('aloha-mobile.png');
+
+    background-size: 100%;
+    filter: opacity(0.8);
+    font-family: "Raleway";
+}
+
+header {
+    padding: 0 2vw;
+}
+header nav {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header nav#logo-bar {
+    padding: 4vw 0px 1vw;
 }
 header img {
-    height: 50px;
-    width: auto;
+    height: 100%;
 }
+header img#logo {
+    order: 1;
+    width: 30%;
+}
+header img#cart {
+    order: 2;
+    width: 13%;
+}
+
+header nav {
+    width: 100%;
+}
+
 header ul {
-    list-style: none;
-    color: #e2574c;
+    order: 3;
+    padding: 4vw 9vw 2vw;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     text-transform: uppercase;
-    display: inline-flex;
+    margin-top: 2vw;
+}
+header ul * {
+    color: #e2574c;
+    text-decoration: none;
+    font-size: 0.87em;
 }
 
 .hero {
-    height: 500px;
-    width: 100%;
     background:linear-gradient( 0deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%),
     url("images/banner-girl.png"), url("images/flower-bkgd.jpg");
-    background-position: center, center, center;
+    background-position: center, center 30px, center;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: cover, contain, cover;
     display: flex;
     justify-content: center;
+    height: 100vw;
 }
 .hero-text {
     text-align: center;
@@ -37,28 +93,59 @@ header ul {
     align-self: center;
 }
 .hero h3 {
-    font-size: 18px;
+    font-size: 1em;
     text-transform: uppercase;
+    padding-bottom: 3vh;
 }
 .hero h1 {
-    font-size: 50px;
+    font-size: 2em;
+    font-family: "Playfair Display";
+    width: 99%;
 }
 
+.content {
+    text-align: center;
+    padding: 30px 25px;
+    font-size: 14px;
+}
 .content h2 {
-    display: inline;
+    font-family: "Playfair Display Italic";
+    display: inline-block;
+    font-size: 31px;
+    padding: 20px 0;
+}
+.content h2 + h2 {
+    font-family: "Playfair Display Bold";
+}
+.content p {
+    font-family: "Raleway Light";
+    font-weight: 100;
+    line-height: 2;
 }
 
 .category ul {
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
+
+    align-items: center;
+}
+
+.category li a {
+    line-height: calc(50vw - 5px);
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px #76797f;
+    text-decoration: none;
 }
 
 .category li {
     font-size: 14px;
     text-align: center;
+
 }
-li.large {
+.category li.large {
     grid-area: auto / span 2;
 }
 
@@ -88,24 +175,86 @@ li.large {
     background-size: 100%;
 }
 
+.carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100vw;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.carousel-wrapper {
+
+}
+
+.carousel-item  {
+    width: 100vw;
+}
+.carousel-item img  {
+    width: 80%;
+}
+
+.carousel-item p {
+    font-size: 13px;
+    padding: 19px;
+}
+
+.carousel-item .product_type {
+    font-size: 9px;
+    padding: 15px;
+}
+.carousel-item h3 {
+    font-size: 19px;
+    font-family: Playfair Display;
+    color: #e2574c;
+
+}
+
+
 #updates {
-    height: 400px;
-    width: 100%;
-    background:linear-gradient(0deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url("images/wave-bkgd.jpg") no-repeat bottom;
+    height: 240px;
+    background:linear-gradient(0deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%),
+    url("images/wave-bkgd.jpg") no-repeat bottom;
+    color: #ffffff;
+    text-align: justify;
+}
+#updates form {
+    display: inline;
+}
+
+#updates #email{
+    border-radius: 50px 0 0 50px;
+    width: 70%;
+    height: 30px;
+}
+
+#updates #submit-button {
+    border-radius: 50px;
+    background-color: #e2574c;
+    color: #ffffff;
+    width: 35%;
+    height: 35px;
+    border: 3px solid white;
+    margin-left: -10%;
 }
 
 footer {
+    margin-top: 10px;
+    padding: 10px;
     background-color: #1B1B1B;
     color: #ffffff;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 10px;
+
 }
 
 footer a {
-    color: white;
+    color: #ffffff;
 }
 
-
 footer .contact_info {
-    padding: 1em 0 1em 0;
 }
 
 footer .address {
@@ -115,16 +264,17 @@ footer .address {
 footer ul {
     list-style: none;
     display: inline-flex;
+    padding: 15px;
 }
 
-footer li {
-    padding-left: 2.0em;
+footer .social-media li {
+    font-size: 0;
 }
-/*footer .social_media li::before {
+
+footer .social-media li::before {
     display: inline-block;
-    margin-left: -2.0em;
-    width: 2.0em;
-}*/
+    font-size: 13px;
+}
 
 .facebook::before {
     content: '\f39e';
@@ -149,3 +299,4 @@ footer li {
     content: '\f0d5';
     font-family: 'Font Awesome 5 Brands';
 }
+
