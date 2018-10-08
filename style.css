@@ -1,7 +1,17 @@
-.container {
-    text-align: center;
+body {
+    display: flex;
+    justify-content: center;
 }
 
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+header img {
+    height: 50px;
+    width: auto;
+}
 header ul {
     list-style: none;
     color: #e2574c;
@@ -11,11 +21,12 @@ header ul {
 
 .hero {
     height: 500px;
+    width: 100%;
     background:linear-gradient( 0deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%),
     url("images/banner-girl.png"), url("images/flower-bkgd.jpg");
     background-position: center, center, center;
-    background-repeat: no-repeat, no-repeat, repeat;
-    background-size: cover, contain, auto;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: cover, contain, cover;
     display: flex;
     justify-content: center;
 }
@@ -33,6 +44,9 @@ header ul {
     font-size: 50px;
 }
 
+.content h2 {
+    display: inline;
+}
 
 .category ul {
     display: grid;
