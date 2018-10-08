@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8cca6f8a-6c07-42c8-bb27-33c1d7d7bd4e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha-desktop-1240px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha-desktop-stretch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha-mobile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aloha-tablet-600px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/PlayfairDisplay-Bold.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/PlayfairDisplay-BoldItalic.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/PlayfairDisplay-Italic.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/PlayfairDisplay-Regular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Raleway-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Raleway-LightItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Raleway-Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Raleway-MediumItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-Bold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-Bold.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-BoldItalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-BoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-BoldItalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-BoldItalic.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-Italic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-Italic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-Italic.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-Regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-Regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-Light.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-Light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-Light.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-LightItalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-LightItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-LightItalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-LightItalic.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-Medium.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-Medium.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-Medium.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-MediumItalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-MediumItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-MediumItalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-MediumItalic.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bags-category.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner-girl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blue-hipster-backpack.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blue-silk-dress.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/checked-stretch-dress.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cotton-blue-shirt.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cotton-yellow-tshirt.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/demin-overall-shorts.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/flower-bkgd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/glasses-category.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mens-category.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pink-dotted-dress.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sale-category.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/stretch-knit-dress.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/trends-category.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/wave-bkgd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/womens-category.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/project-01.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-Bold.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-BoldItalic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-Italic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/PlayfairDisplay-Regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-Light.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-LightItalic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-Medium.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/Raleway-MediumItalic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts2/stylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/aloha-logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cart-icon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style.css" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="95" column="37" lean-forward="false" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="96" column="17" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/WebstormProjects/AlohaWeb/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="14" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="757" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project-02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-02" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cca6f8a-6c07-42c8-bb27-33c1d7d7bd4e" name="Default" comment="" />
+      <created>1538730239870</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538730239870</updated>
+      <workItem from="1538730241094" duration="571000" />
+      <workItem from="1538731304448" duration="254000" />
+      <workItem from="1538997431637" duration="5382000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6207000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="14" y="23" width="1400" height="757" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/style.css" />
+    <entry file="file://$PROJECT_DIR$/../project-01/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="97" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project-01/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="113" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WebstormProjects/AlohaWeb/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="147" column="1" lean-forward="true" selection-start-line="147" selection-start-column="1" selection-end-line="147" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WebstormProjects/AlohaWeb/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="95" column="37" lean-forward="false" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="96" column="17" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

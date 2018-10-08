@@ -1,0 +1,137 @@
+.container {
+    text-align: center;
+}
+
+header ul {
+    list-style: none;
+    color: #e2574c;
+    text-transform: uppercase;
+    display: inline-flex;
+}
+
+.hero {
+    height: 500px;
+    background:linear-gradient( 0deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%),
+    url("images/banner-girl.png"), url("images/flower-bkgd.jpg");
+    background-position: center, center, center;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: cover, contain, auto;
+    display: flex;
+    justify-content: center;
+}
+.hero-text {
+    text-align: center;
+    color: #f0f8ff;
+    text-shadow: 2px 2px #76797f;
+    align-self: center;
+}
+.hero h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.hero h1 {
+    font-size: 50px;
+}
+
+
+.category ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.category li {
+    font-size: 14px;
+    text-align: center;
+}
+li.large {
+    grid-area: auto / span 2;
+}
+
+#mens {
+    background: url("images/mens-category.jpg") no-repeat;
+    background-size: 100%;
+}
+#trends {
+    background: url("images/trends-category.jpg") no-repeat;
+    background-size: 100%;
+}
+#glasses {
+    background: url("images/glasses-category.jpg") no-repeat;
+    background-size: 100%;
+}
+#sale {
+    background: url("images/sale-category.jpg") no-repeat;
+    background-size: 100%;
+
+}
+#bags {
+    background: url("images/bags-category.jpg") no-repeat;
+    background-size: 100%;
+}
+#womens {
+    background: url("images/womens-category.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#updates {
+    height: 400px;
+    width: 100%;
+    background:linear-gradient(0deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url("images/wave-bkgd.jpg") no-repeat bottom;
+}
+
+footer {
+    background-color: #1B1B1B;
+    color: #ffffff;
+}
+
+footer a {
+    color: white;
+}
+
+
+footer .contact_info {
+    padding: 1em 0 1em 0;
+}
+
+footer .address {
+    color: #767676;
+}
+
+footer ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+footer li {
+    padding-left: 2.0em;
+}
+/*footer .social_media li::before {
+    display: inline-block;
+    margin-left: -2.0em;
+    width: 2.0em;
+}*/
+
+.facebook::before {
+    content: '\f39e';
+    font-family: 'Font Awesome 5 Brands';
+}
+
+.twitter::before {
+    content: '\f099';
+    font-family: 'Font Awesome 5 Brands';
+}
+
+.instagram::before {
+    content: '\f16d';
+    font-family: 'Font Awesome 5 Brands';
+}
+
+.pinterest::before {
+    content: '\f0d2';
+    font-family: 'Font Awesome 5 Brands';
+}
+.google_plus::before {
+    content: '\f0d5';
+    font-family: 'Font Awesome 5 Brands';
+}
