@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8cca6f8a-6c07-42c8-bb27-33c1d7d7bd4e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +19,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="279" column="27" lean-forward="false" selection-start-line="279" selection-start-column="27" selection-end-line="279" selection-end-column="27" />
+            <state relative-caret-position="483">
+              <caret line="290" column="1" lean-forward="true" selection-start-line="290" selection-start-column="1" selection-end-line="290" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -81,6 +79,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -177,7 +178,7 @@
       <updated>1538730239870</updated>
       <workItem from="1538730241094" duration="571000" />
       <workItem from="1538731304448" duration="254000" />
-      <workItem from="1538997431637" duration="22583000" />
+      <workItem from="1538997431637" duration="22711000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1539012648481</created>
@@ -200,11 +201,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539042518399</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add visual changes to footer">
+      <created>1539084909325</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539084909325</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23408000" />
+    <option name="totallyTimeSpent" value="23536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="38" width="1400" height="757" extended-state="0" />
@@ -238,7 +246,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="add viewport" />
     <MESSAGE value="add visual changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add visual changes" />
+    <MESSAGE value="add visual changes to footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add visual changes to footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -313,8 +322,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="279" column="27" lean-forward="false" selection-start-line="279" selection-start-column="27" selection-end-line="279" selection-end-column="27" />
+        <state relative-caret-position="483">
+          <caret line="290" column="1" lean-forward="true" selection-start-line="290" selection-start-column="1" selection-end-line="290" selection-end-column="1" />
           <folding />
         </state>
       </provider>
