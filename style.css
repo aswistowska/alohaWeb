@@ -62,7 +62,7 @@ header nav {
 header ul {
     order: 3;
     padding: 13px 30px 10px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #d7d7d7;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -240,7 +240,7 @@ header ul * {
 footer {
     margin-top: 10px;
     padding: 10px;
-    background-color: #1B1B1B;
+    background-color: #242424;
     color: #ffffff;
     text-align: center;
     font-family: Playfair Display;
@@ -262,7 +262,7 @@ footer a {
 }
 
 .address {
-    color: #767676;
+    color: #969696;
     font-size: 1em;
 }
 
@@ -561,11 +561,9 @@ footer .social-media li::before {
         justify-content: space-around;
     }
 
-
     .details {
         font-size: 1.6em;
     }
-
 
     footer .social-media li {
         font-size: 1.5em;
