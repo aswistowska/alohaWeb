@@ -24,12 +24,22 @@
     src: url(fonts/Raleway-Light.ttf)
 }
 
+.container {
+    max-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+}
+
 
 body {
+    /*
+    background: url('aloha-mobile.png');
+    background: url('aloha-tablet-600px.png');
     background: url('aloha-desktop-1240px.png');
-    background-size: 100%;
     filter: opacity(0.8);
-    font-family: "Raleway";
+    background-size: 100%;
+    */
+    font-family: "Raleway", sans-serif;
 }
 
 header {
@@ -40,23 +50,29 @@ header nav {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+header nav > * {
+    width: 20%;
+    flex-basis: 1;
+}
+
 header nav#logo-bar {
-    padding: 14px 0px 6px;
-}
-header img {
-    height: 100%;
-}
-header img#logo {
-    order: 1;
-    width: 30%;
-}
-header img#cart {
-    order: 2;
-    width: 13%;
+    padding: 14px 0 6px;
 }
 
 header nav {
     width: 100%;
+}
+
+header nav div img {
+    height: 40px;
+}
+header #logo {
+    order: 1;
+}
+header #cart {
+    order: 2;
+    text-align: right;
 }
 
 header ul {
@@ -65,10 +81,12 @@ header ul {
     border-top: 1px solid #d7d7d7;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     text-transform: uppercase;
     margin-top: 6px;
 }
+
 header ul * {
     color: #e2574c;
     text-decoration: none;
@@ -98,7 +116,7 @@ header ul * {
 }
 .hero h1 {
     font-size: 31px;
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", serif;
     width: 99%;
 }
 
@@ -108,16 +126,17 @@ header ul * {
     font-size: 14px;
 }
 .content h2 {
-    font-family: "Playfair Display Italic";
+    font-family: "Playfair Display Italic", serif;
     display: inline-block;
     font-size: 31px;
     padding: 20px 0;
 }
 .content h2 + h2 {
-    font-family: "Playfair Display Bold";
+    font-family: "Playfair Display Bold", serif;
+    font-weight: bold;
 }
 .content p {
-    font-family: "Raleway Light";
+    font-family: "Raleway Light", sans-serif;
     font-weight: 100;
     line-height: 2;
 }
@@ -193,18 +212,21 @@ header ul * {
 }
 
 .carousel-item p {
-    font-size: 13px;
+    font-size: 9px;
     padding: 19px;
+    color: #969696
 }
 
 .carousel-item .product_type {
-    font-size: 9px;
+
     padding: 15px;
 }
 .carousel-item h3 {
     font-size: 19px;
-    font-family: Playfair Display;
+    font-family: "Playfair Display", serif;
     color: #e2574c;
+}
+.carousel-item .price {
 
 }
 
@@ -218,34 +240,43 @@ header ul * {
 }
 
 #updates form {
-    display: inline;
+    padding: 25px 0;
+    text-align: center;
+}
+
+#updates form input {
+    border: 3px solid white;
+    border-radius: 10em;
+    padding: 10px;
 }
 
 #updates #email{
-    border-radius: 50px 0 0 50px;
-    width: 70%;
-    height: 30px;
+    width: 30vw;
+    padding-left: 15px;
+    padding-right: 50px;
 }
 
+
 #updates #submit-button {
-    border-radius: 50px;
     background-color: #e2574c;
     color: #ffffff;
-    width: 35%;
-    height: 35px;
-    border: 3px solid white;
-    margin-left: -10%;
+    margin-left: -60px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 footer {
+    line-height: 1.5;
     margin-top: 10px;
     padding: 10px;
     background-color: #242424;
     color: #ffffff;
     text-align: center;
-    font-family: Playfair Display;
+    font-family: "Playfair Display", serif;
     font-size: 10px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer a {
@@ -253,7 +284,6 @@ footer a {
 }
 
 .details {
-    padding: 40px;
     font-size: 1.3em;
 }
 .contact_info {
@@ -269,17 +299,16 @@ footer a {
 footer ul {
     list-style: none;
     display: inline-flex;
-    padding: 5px;
 }
 
 footer .social-media li {
     font-size: 0;
-    padding: 0 10px 0 10px;
 }
 
 footer .social-media li::before {
     display: inline-block;
     font-size: 13px;
+    padding: 5px;
 }
 
 .facebook::before {
@@ -306,33 +335,35 @@ footer .social-media li::before {
     font-family: 'Font Awesome 5 Brands';
 }
 
-@media (min-width: 600px)  {
-
+@media screen and (min-width: 600px)  {
     header ul * {
-        font-size: 20px;
+        font-size: 15px;
     }
 
-    header img#logo {
+    header #logo {
         order: 1;
-        width: 23%;
     }
-    header img#cart {
+    header #cart {
         order: 3;
-        width: 10%;
     }
 
-    header ul {
+    header nav ul {
         order: 2;
-        border: none;
-        width: 50%;
-        margin-top: 35px;
-        padding: 0 95px 0 0;
+        width: 40%;
+        justify-content: center;
+        border: 0;
+    }
+    header nav ul li {
+        padding: 0 10px;
+    }
+    header nav div img {
+        height: 50px;
     }
 
     .hero {
         margin-top: 10px;
         background-position: center, center 55px, center;
-        height: 50vh;
+        height: 62vh;
     }
 
     .hero h3 {
@@ -351,8 +382,12 @@ footer .social-media li::before {
     }
 
     .content h2 {
-        font-size: 50px;
-        padding: 40px 0;
+        font-size: 40px;
+        padding: 20px 0;
+    }
+
+    .content p {
+        font-size: 14pt;
     }
 
 
@@ -375,55 +410,30 @@ footer .social-media li::before {
     }
 
     .carousel-item .product_type {
-        font-size: 15px;
         padding: 10px;
     }
 
     .carousel-item h3 {
-        font-size: 30px;
+        font-size: 19pt;
+        padding: 7px 22px;
     }
 
     .carousel-item p {
-        font-size: 20px;
-        padding: 70px;
+        font-size: 9pt;
+    }
+
+    #updates form input {
+        font-size: 1em;
     }
 
     #updates {
         padding-bottom: 70px;
-        height: 50vw;
-        margin-top: 10px;
         text-align: center;
     }
-
-    #updates #email {
-        border-radius: 50px 0 0 50px;
-        width: 50%;
-        height: 50px;
-        margin-top: 45px
-    }
-
-    #updates #submit-button {
-        width: 25%;
-        height: 55px;
-        border: 5px solid white;
-    }
-
-    footer {
-        margin-top: 10px;
-        padding: 10px;
-        background-color: #1B1B1B;
-        color: #ffffff;
-        font-family: Playfair Display;
-        font-size: 10px;
-        display: flex;
-        justify-content: space-around;
-    }
-
 
     .details {
         font-size: 2em;
         text-align: left;
-        margin: 85px 0 85px 0;
         padding: 0;
     }
     .contact_info {
@@ -434,54 +444,52 @@ footer .social-media li::before {
         color: #767676;
         font-size: 1em;
     }
-
+    footer {
+        font-size: 6pt;
+        padding: 50px 40px 50px 10px;
+        flex-direction: row;
+    }
     footer ul {
+
         list-style: none;
         display: inline;
-        padding: 5px;
         text-align: left;
-        font-family: "Raleway Light";
+        font-family: "Raleway Light", sans-serif;
     }
 
     footer .social-media li {
-        text-align: center;
         font-size: 2em;
-        padding-left: 4em;
     }
 
     footer .social-media li::before {
-        display: inline-block;
-        font-size: 13px;
+        font-size: 1.2em;
+        width: 35px;
     }
+    #updates #submit-button {
+        margin-left: -50px;
+    }
+
 }
 
 @media screen and (min-width:1240px) {
-
-    header img#logo {
-        width: 13%;
+    header nav div img {
+        height: 60px;
     }
-
-    header ul * {
-        font-size: 15px;
+    header #logo {
+        margin-left: 30px;
     }
-
-    header img#cart {
-        width: 5%;
+    header #cart {
+        margin-right: 30px;
     }
-
-    header ul {
-        order: 2;
-        border: none;
-        width: 30%;
-        margin-top: 25px;
-        padding: 0;
+    header nav ul li {
+        padding: 0 20px;
     }
 
     .hero {
-        background-position: center, center 55px, center;
-        height: 75vh;
+        height: 83vh;
         background-size: cover, contain, contain;
         background-repeat: no-repeat, no-repeat, repeat;
+        background-position: center, center 55px, center;
     }
 
 
@@ -496,8 +504,7 @@ footer .social-media li::before {
     }
 
     .content {
-        font-size: 18px;
-        padding: 20px 25px;
+        padding: 16px 300px;
     }
 
     .content h2 {
@@ -536,37 +543,23 @@ footer .social-media li::before {
         padding: 25px;
     }
 
-    #updates {
-        margin-top: 20px;
-        height:33vh;
+    #updates #email{
+        width: 30%;
+        padding-left: 20px;
     }
 
-    #updates #email {
-        width: 33%;
-        margin-top: 50px
-    }
-
-    #updates #submit-button {
-        width: 12%;
-    }
 
     footer {
-        margin-top: 10px;
-        padding: 10px;
-        background-color: #1B1B1B;
-        color: #ffffff;
-        font-family: Playfair Display;
-        font-size: 10px;
-        display: flex;
-        justify-content: space-around;
+        padding: 70px 80px 70px 50px;
     }
 
     .details {
-        font-size: 1.6em;
     }
 
     footer .social-media li {
-        font-size: 1.5em;
+    }
+    footer .social-media li::before {
+        width: 25px;
     }
 
 }
