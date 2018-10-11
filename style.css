@@ -486,7 +486,7 @@ footer .social-media li::before {
     }
 
     .hero {
-        height: 83vh;
+        height: 600px;
         background-size: cover, contain, contain;
         background-repeat: no-repeat, no-repeat, repeat;
         background-position: center, center 55px, center;
@@ -516,6 +516,10 @@ footer .social-media li::before {
         margin-top: 70px;
     }
 
+    .category li {
+        max-height: 350px;
+    }
+
     .category li a {
         line-height: calc(25vw - 5px);
         font-size: 35px;
@@ -526,7 +530,7 @@ footer .social-media li::before {
     }
 
     .carousel-item  {
-        width: 25vw;
+        max-width: 25vw;
     }
 
     .carousel-item .product_type {
