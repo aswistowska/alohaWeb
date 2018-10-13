@@ -1,6 +1,6 @@
 # alohaWeb
 
-Project: Aloha RED ACADEMY
+Project: AlohaWeb RED ACADEMY
 
 Project Summary:
 Project completed as a part of RED ACADEMY's Web Developer program. The site was built to be responsive by implementing a mobile first design.
