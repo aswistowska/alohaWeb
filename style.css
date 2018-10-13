@@ -25,7 +25,7 @@
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1240px;
     margin: auto;
     overflow: hidden;
 }
@@ -192,42 +192,35 @@ header ul * {
     background-size: 100%;
 }
 
-.carousel {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100vw;
-    overflow: hidden;
-    text-align: center;
-    padding-bottom: 75px;
+.carousel-cell {
+    width: 100%;
+    margin-right: 10px;
 }
-
-.carousel-wrapper {
+.carousel {
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 .carousel-item  {
-    width: 100vw;
+    width: 100%;
 }
 .carousel-item img  {
     width: 80%;
 }
 
 .carousel-item p {
-    font-size: 9px;
+    font-size: 15px;
     padding: 19px;
     color: #969696
 }
 
 .carousel-item .product_type {
-
     padding: 15px;
 }
 .carousel-item h3 {
-    font-size: 19px;
+    font-size: 25px;
     font-family: "Playfair Display", serif;
     color: #e2574c;
-}
-.carousel-item .price {
-
 }
 
 
@@ -235,7 +228,7 @@ header ul * {
     background:linear-gradient(0deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%),
     url("images/wave-bkgd.jpg") no-repeat bottom;
     color: #ffffff;
-    text-align: justify;
+    text-align: center;
     padding-bottom: 50px;
 }
 
@@ -405,21 +398,9 @@ footer .social-media li::before {
         grid-area: auto / span 2;
     }
 
-    .carousel-item  {
-        width: 50vw;
-    }
-
-    .carousel-item .product_type {
-        padding: 10px;
-    }
-
-    .carousel-item h3 {
-        font-size: 19pt;
-        padding: 7px 22px;
-    }
-
-    .carousel-item p {
-        font-size: 9pt;
+    .carousel-cell {
+        width: 50%;
+        margin-right: 10px;
     }
 
     #updates form input {
@@ -517,11 +498,11 @@ footer .social-media li::before {
     }
 
     .category li {
-        max-height: 350px;
+        height: 304px;
     }
 
     .category li a {
-        line-height: calc(25vw - 5px);
+        line-height: 304px;
         font-size: 35px;
     }
 
@@ -529,22 +510,8 @@ footer .social-media li::before {
         grid-area: auto / span 2;
     }
 
-    .carousel-item  {
-        max-width: 25vw;
-    }
-
-    .carousel-item .product_type {
-        font-size: 12px;
-        padding: 20px;
-    }
-
-    .carousel-item h3 {
-        font-size: 23px;
-    }
-
-    .carousel-item p {
-        font-size: 16px;
-        padding: 25px;
+    .carousel-cell {
+        width: 25%;
     }
 
     #updates #email{
