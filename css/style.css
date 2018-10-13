@@ -1,28 +1,4 @@
-@font-face {
-    font-family: "Playfair Display";
-    src: url(fonts/PlayfairDisplay-Regular.otf);
-}
-
-@font-face {
-    font-family: "Playfair Display Italic";
-    src: url(fonts/PlayfairDisplay-Italic.otf);
-}
-
-@font-face {
-    font-family: "Playfair Display Bold";
-    src: url(fonts/PlayfairDisplay-Bold.otf);
-}
-
-
-@font-face {
-    font-family: Raleway;
-    src: url(fonts/Raleway-Medium.ttf)
-}
-
-@font-face {
-    font-family: "Raleway Light";
-    src: url(fonts/Raleway-Light.ttf)
-}
+@import "../fonts2/stylesheet.css";
 
 .container {
     max-width: 1240px;
@@ -95,7 +71,7 @@ header ul * {
 
 .hero {
     background:linear-gradient( 0deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%),
-    url("images/banner-girl.png"), url("images/flower-bkgd.jpg");
+    url("../images/banner-girl.png"), url("../images/flower-bkgd.jpg");
     background-position: center, center 30px, center;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: cover, contain, cover;
@@ -126,17 +102,18 @@ header ul * {
     font-size: 14px;
 }
 .content h2 {
-    font-family: "Playfair Display Italic", serif;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
     display: inline-block;
     font-size: 31px;
     padding: 20px 0;
 }
 .content h2 + h2 {
-    font-family: "Playfair Display Bold", serif;
+    font-family: "Playfair Display", serif;
     font-weight: bold;
 }
 .content p {
-    font-family: "Raleway Light", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 100;
     line-height: 2;
 }
@@ -167,28 +144,28 @@ header ul * {
 }
 
 #mens {
-    background: url("images/mens-category.jpg") no-repeat;
+    background: url("../images/mens-category.jpg") no-repeat;
     background-size: 100%;
 }
 #trends {
-    background: url("images/trends-category.jpg") no-repeat;
+    background: url("../images/trends-category.jpg") no-repeat;
     background-size: 100%;
 }
 #glasses {
-    background: url("images/glasses-category.jpg") no-repeat;
+    background: url("../images/glasses-category.jpg") no-repeat;
     background-size: 100%;
 }
 #sale {
-    background: url("images/sale-category.jpg") no-repeat;
+    background: url("../images/sale-category.jpg") no-repeat;
     background-size: 100%;
 
 }
 #bags {
-    background: url("images/bags-category.jpg") no-repeat;
+    background: url("../images/bags-category.jpg") no-repeat;
     background-size: 100%;
 }
 #womens {
-    background: url("images/womens-category.jpg") no-repeat;
+    background: url("../images/womens-category.jpg") no-repeat;
     background-size: 100%;
 }
 
@@ -226,7 +203,7 @@ header ul * {
 
 #updates {
     background:linear-gradient(0deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%),
-    url("images/wave-bkgd.jpg") no-repeat bottom;
+    url("../images/wave-bkgd.jpg") no-repeat bottom;
     color: #ffffff;
     text-align: center;
     padding-bottom: 50px;
@@ -435,7 +412,8 @@ footer .social-media li::before {
         list-style: none;
         display: inline;
         text-align: left;
-        font-family: "Raleway Light", sans-serif;
+        font-family: "Raleway", sans-serif;
+        font-weight: 100;
     }
 
     footer .social-media li {
