@@ -225,7 +225,7 @@ header ul * {
 }
 
 #updates form {
-    padding: 25px 0;
+    padding: 25px 0 10px 0;
     text-align: center;
 }
 
@@ -356,12 +356,12 @@ footer .social-media li::before {
     }
 
     .hero h3 {
-        font-size: 25px;
+        font-size: 20px;
         padding-bottom: 20px;
     }
 
     .hero h1 {
-        font-size: 60px;
+        font-size: 50px;
         width: 100%;
     }
 
@@ -376,17 +376,16 @@ footer .social-media li::before {
     }
 
     .content p {
-        font-size: 14pt;
+        font-size: 14px;
     }
 
     .category ul {
-        margin-top: 40px;
         grid-template-columns: repeat(4, 1fr);
     }
 
     .category li a {
         line-height: calc(25vw - 5px);
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .category li.large {
