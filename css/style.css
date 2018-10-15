@@ -6,7 +6,6 @@
     overflow: hidden;
 }
 
-
 body {
     /*
     background: url('aloha-mobile.png');
@@ -21,6 +20,7 @@ body {
 header {
     padding: 0 8px;
 }
+
 header nav {
     display: flex;
     flex-wrap: wrap;
@@ -43,9 +43,11 @@ header nav {
 header nav div img {
     height: 40px;
 }
+
 header #logo {
     order: 1;
 }
+
 header #cart {
     order: 2;
     text-align: right;
@@ -70,7 +72,7 @@ header ul * {
 }
 
 .hero {
-    background:linear-gradient( 0deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%),
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%),
     url("../images/banner-girl.png"), url("../images/flower-bkgd.jpg");
     background-position: center, center 30px, center;
     background-repeat: no-repeat, no-repeat, no-repeat;
@@ -79,17 +81,20 @@ header ul * {
     justify-content: center;
     height: 100vw;
 }
+
 .hero-text {
     text-align: center;
     color: #f0f8ff;
     text-shadow: 2px 2px #76797f;
     align-self: center;
 }
+
 .hero h3 {
     font-size: 16px;
     text-transform: uppercase;
     padding-bottom: 16px;
 }
+
 .hero h1 {
     font-size: 31px;
     font-family: "Playfair Display", serif;
@@ -101,6 +106,7 @@ header ul * {
     padding: 30px 25px;
     font-size: 14px;
 }
+
 .content h2 {
     font-family: "Playfair Display", serif;
     font-style: italic;
@@ -108,10 +114,12 @@ header ul * {
     font-size: 31px;
     padding: 20px 0;
 }
+
 .content h2 + h2 {
     font-family: "Playfair Display", serif;
     font-weight: bold;
 }
+
 .content p {
     font-family: "Raleway", sans-serif;
     font-weight: 100;
@@ -139,6 +147,7 @@ header ul * {
     text-align: center;
 
 }
+
 .category li.large {
     grid-area: auto / span 2;
 }
@@ -147,23 +156,28 @@ header ul * {
     background: url("../images/mens-category.jpg") no-repeat;
     background-size: 100%;
 }
+
 #trends {
     background: url("../images/trends-category.jpg") no-repeat;
     background-size: 100%;
 }
+
 #glasses {
     background: url("../images/glasses-category.jpg") no-repeat;
     background-size: 100%;
 }
+
 #sale {
     background: url("../images/sale-category.jpg") no-repeat;
     background-size: 100%;
 
 }
+
 #bags {
     background: url("../images/bags-category.jpg") no-repeat;
     background-size: 100%;
 }
+
 #womens {
     background: url("../images/womens-category.jpg") no-repeat;
     background-size: 100%;
@@ -171,17 +185,18 @@ header ul * {
 
 .carousel-cell {
     width: 100%;
-    margin-right: 10px;
 }
+
 .carousel {
     text-align: center;
     margin-bottom: 60px;
 }
 
-.carousel-item  {
+.carousel-item {
     width: 100%;
 }
-.carousel-item img  {
+
+.carousel-item img {
     width: 80%;
 }
 
@@ -194,15 +209,15 @@ header ul * {
 .carousel-item .product_type {
     padding: 15px;
 }
+
 .carousel-item h3 {
     font-size: 25px;
     font-family: "Playfair Display", serif;
     color: #e2574c;
 }
 
-
 #updates {
-    background:linear-gradient(0deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%),
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%),
     url("../images/wave-bkgd.jpg") no-repeat bottom;
     color: #ffffff;
     text-align: center;
@@ -220,12 +235,11 @@ header ul * {
     padding: 10px;
 }
 
-#updates #email{
+#updates #email {
     width: 30vw;
     padding-left: 15px;
     padding-right: 50px;
 }
-
 
 #updates #submit-button {
     background-color: #e2574c;
@@ -256,6 +270,7 @@ footer a {
 .details {
     font-size: 1.3em;
 }
+
 .contact_info {
     margin: 20px 0 20px 0;
     font-size: 1em;
@@ -300,12 +315,13 @@ footer .social-media li::before {
     content: '\f0d2';
     font-family: 'Font Awesome 5 Brands';
 }
+
 .google_plus::before {
     content: '\f0d5';
     font-family: 'Font Awesome 5 Brands';
 }
 
-@media screen and (min-width: 600px)  {
+@media screen and (min-width: 600px) {
     header ul * {
         font-size: 15px;
     }
@@ -313,6 +329,7 @@ footer .social-media li::before {
     header #logo {
         order: 1;
     }
+
     header #cart {
         order: 3;
     }
@@ -323,9 +340,11 @@ footer .social-media li::before {
         justify-content: center;
         border: 0;
     }
+
     header nav ul li {
         padding: 0 10px;
     }
+
     header nav div img {
         height: 50px;
     }
@@ -360,7 +379,6 @@ footer .social-media li::before {
         font-size: 14pt;
     }
 
-
     .category ul {
         margin-top: 40px;
         grid-template-columns: repeat(4, 1fr);
@@ -377,7 +395,6 @@ footer .social-media li::before {
 
     .carousel-cell {
         width: 50%;
-        margin-right: 10px;
     }
 
     #updates form input {
@@ -394,6 +411,7 @@ footer .social-media li::before {
         text-align: left;
         padding: 0;
     }
+
     .contact_info {
         font-size: 1em;
     }
@@ -402,11 +420,13 @@ footer .social-media li::before {
         color: #767676;
         font-size: 1em;
     }
+
     footer {
         font-size: 6pt;
         padding: 50px 40px 50px 10px;
         flex-direction: row;
     }
+
     footer ul {
 
         list-style: none;
@@ -424,22 +444,26 @@ footer .social-media li::before {
         font-size: 1.2em;
         width: 35px;
     }
+
     #updates #submit-button {
         margin-left: -50px;
     }
 
 }
 
-@media screen and (min-width:1240px) {
+@media screen and (min-width: 1240px) {
     header nav div img {
         height: 60px;
     }
+
     header #logo {
         margin-left: 30px;
     }
+
     header #cart {
         margin-right: 30px;
     }
+
     header nav ul li {
         padding: 0 20px;
     }
@@ -450,7 +474,6 @@ footer .social-media li::before {
         background-repeat: no-repeat, no-repeat, repeat;
         background-position: center, center 55px, center;
     }
-
 
     .hero h3 {
         font-size: 25px;
@@ -492,11 +515,10 @@ footer .social-media li::before {
         width: 25%;
     }
 
-    #updates #email{
+    #updates #email {
         width: 30%;
         padding-left: 20px;
     }
-
 
     footer {
         padding: 70px 80px 70px 50px;
@@ -507,6 +529,7 @@ footer .social-media li::before {
 
     footer .social-media li {
     }
+
     footer .social-media li::before {
         width: 25px;
     }
