@@ -17,6 +17,10 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
+a:hover {
+    color: #b64036;
+}
+
 header {
     padding: 0 8px;
 }
