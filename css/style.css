@@ -268,17 +268,15 @@ footer a {
 }
 
 .details {
-    font-size: 1.3em;
+    font-size: 14px;
 }
 
 .contact_info {
     margin: 20px 0 20px 0;
-    font-size: 1em;
 }
 
 .address {
     color: #969696;
-    font-size: 1em;
 }
 
 footer ul {
@@ -323,7 +321,7 @@ footer .social-media li::before {
 
 @media screen and (min-width: 600px) {
     header ul * {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     header #logo {
@@ -397,7 +395,7 @@ footer .social-media li::before {
     }
 
     #updates form input {
-        font-size: 1em;
+        font-size: 20px;
     }
 
     #updates {
@@ -406,28 +404,21 @@ footer .social-media li::before {
     }
 
     .details {
-        font-size: 2em;
+        font-size: 16px;
         text-align: left;
         padding: 0;
     }
 
-    .contact_info {
-        font-size: 1em;
-    }
-
     .address {
         color: #767676;
-        font-size: 1em;
     }
 
     footer {
-        font-size: 6pt;
         padding: 50px 40px 50px 10px;
         flex-direction: row;
     }
 
     footer ul {
-
         list-style: none;
         display: inline;
         text-align: left;
@@ -436,11 +427,11 @@ footer .social-media li::before {
     }
 
     footer .social-media li {
-        font-size: 2em;
+        font-size: 15px;
     }
 
     footer .social-media li::before {
-        font-size: 1.2em;
+        font-size: 15px;
         width: 35px;
     }
 
