@@ -11,7 +11,7 @@ $(function () {
             }, 1000);
         });
 
-    $('form').on('submit', function (event) {
+    $('#updates').on('submit', 'form', function (event) {
         event.preventDefault();
         let email = emailElement.val();
         if(validateEmail(email)){
