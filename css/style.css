@@ -127,7 +127,7 @@ header ul * {
 }
 
 .category ul {
-    margin-top: 30px;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
@@ -378,6 +378,7 @@ footer .social-media li::before {
     }
 
     .category ul {
+        margin-top: 20px;
         grid-template-columns: repeat(4, 1fr);
     }
 
@@ -485,7 +486,7 @@ footer .social-media li::before {
     }
 
     .category ul {
-        margin-top: 70px;
+        margin-top: 40px;
     }
 
     .category li {
