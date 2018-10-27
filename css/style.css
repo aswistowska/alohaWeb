@@ -6,6 +6,10 @@
     overflow: hidden;
 }
 
+label {
+    display: none;
+}
+
 body {
     /*
     background: url('aloha-mobile.png');
