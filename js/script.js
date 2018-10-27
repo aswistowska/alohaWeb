@@ -4,7 +4,7 @@ $(function () {
     // Smooth scrolling header elements
     $('header nav a')
         .click(function (event) {
-            var target = $(this.hash);
+            let target = $(this.hash);
             event.preventDefault();
             $('html, body').animate({
                 scrollTop: target.offset().top
